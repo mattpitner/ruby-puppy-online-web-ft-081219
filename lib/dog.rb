@@ -20,7 +20,7 @@ class Dog
     end 
   end 
   
-  def self.clear_all
+  def self.clear
     @all.clear 
   end 
   
