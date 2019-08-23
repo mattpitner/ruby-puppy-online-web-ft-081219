@@ -9,9 +9,6 @@ class Dog
      @@all << self 
   end 
   
-  def save
-    
-  end 
   
   def self.all 
     @@all 
@@ -25,6 +22,12 @@ class Dog
   
   def self.clear_all
     @all.clear 
+  end 
+  
+  private 
+  
+  def save
+    @@all << self 
   end 
   
 end 
